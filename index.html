@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>What is Kanban by Mykola Nazimkov</title>
+
+	<link rel="stylesheet" href="dist/reset.css">
+	<link rel="stylesheet" href="dist/reveal.css">
+	<link rel="stylesheet" href="dist/theme/solarized.css" id="theme">
+	<link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+
+	<!-- Theme used for syntax highlighted code -->
+	<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section>
+				<img class="slide1__img" src="./img/rs_school.svg" alt="" width="25%" height="25%">
+				<h1>What is Kanban?</h1>
+				<p>by Mykola Nazimkov</p>
+			</section>
+			<section>
+				<p><b>Kanban</b>- is a lean method to manage and improve work across human systems.</p>
+				<p>In software development, the aim is to provide a visual process management system which aids
+					decision-making about what, when, and how much to produce.</p>
+			</section>
+			<section>
+				<h2>Three general practices of Kanban:</h2>
+				<ol>
+					<li>It visualizes the work of the development team (the features and user stories).</li>
+					<li>It captures WIP limits for development steps: the circled values below the column headings that
+						limit the number of work items under that step</li>
+					<li>It documents policies, also known as done rules, inside blue rectangles under some of the
+						development steps.</li>
+				</ol>
+			</section>
+			<section>
+				<h3>Visualization of work on Kanban board</h3>
+				<img class="slide4__img" src="./img/Kanban_board_example.jpg" alt="" width = "600px" height="300px" >
+			</section>
+			<section>
+				<h2>Managing workflow</h2>
+				<p>Kanban manages workflow directly on the Kanban board. The WIP limits for development steps provide development teams immediate feedback on common workflow issues.Problems are visual and evident immediately, and re-planning can be done continuously. The work management is made possible by limiting work in progress in a way team members can see and track at all times.</p>
+			</section>
+			<section>
+				<h2>Kanban metrics</h2>
+				<ul>
+					<li>Team velocity</li>
+					<li>Lead and Cycle time </li>
+					<li>Actionable Agile metrics</li>
+				</ul>
+			</section>
+			<section>
+				<h2>Examples of kanban services:</h2>
+				<ul>
+					<li>Trello</li>
+					<li>Kanbanchi</li>
+					<li>MeisterTask</li>
+					<li>Microsoft Planner</li>
+				</ul>
+			</section>
+			<section>
+				<h2>Trello</h2>
+				<img src="./img/Trello.png" alt="">
+			</section>
+			<section>
+				<h2>Kanbanchi</h2>
+				<img src="./img/Kanbanchi.png" alt="">
+			</section>
+			<section>
+				<h2>MeisterTask</h2>
+				<img src="./img/mei.png" alt="">
+			</section>
+			<section>
+				<h2>Microsoft Planner</h2>
+				<img src="./img/Planner.png" alt="">
+			</section>
+		</div>
+	</div>
+
+	<script src="dist/reveal.js"></script>
+	<script src="plugin/notes/notes.js"></script>
+	<script src="plugin/markdown/markdown.js"></script>
+	<script src="plugin/highlight/highlight.js"></script>
+	<script>
+		// More info about initialization & config:
+		// - https://revealjs.com/initialization/
+		// - https://revealjs.com/config/
+		Reveal.initialize({
+			hash: true,
+
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+		});
+	</script>
+</body>
+
+</html>
